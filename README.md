@@ -10,11 +10,14 @@ No custom `resolveData` / `resolveFields` / hooks, so the cost is isolated to Pu
 
 ## Versions
 
-- `@puckeditor/core` **0.21.3** (0.21.2 behaves identically — the 0.21.3 changeset is `fix:`
-  commits only, none touching `walkAppState` / the reducer / virtualization).
+- `@puckeditor/core` **0.21.3** (latest stable).
 - React 18, Vite 5.
 
 ## Run
+
+One-click, no install (StackBlitz): https://stackblitz.com/github/Daniil-Padiryakov/puck-nested-slot-perf-repro
+
+Or locally:
 
 ```bash
 npm install
